@@ -17,7 +17,8 @@ import processing.core.PApplet;
 public class Key {
 	private static int pressTime[] = null;
 	private static boolean keyOff[] = null;
-
+	
+	private Key(){}
 
 	/**
 	 * a Constructor, usually called in the setup() method in your sketch to
